@@ -1,0 +1,11 @@
+.square-box{
+    min-width: 200px;
+    min-height: 400px;
+    background-color: cyan;
+    border: solid 2px black;
+}
+
+.x{
+    width: 190px;
+    padding: 10px;
+}
