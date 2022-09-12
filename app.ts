@@ -1,3 +1,6 @@
+const EM = document.getElementById('myEm')! as HTMLElement
+const HEADER = document.getElementById('myHeader')! as HTMLElement
+const buttn = document.getElementById("myButton")! as HTMLElement
 const quote = [
 "The purpose of our lives is to be happy",
 "Life is what happens when you're busy making other plans",
@@ -19,4 +22,12 @@ const writer =[
     "Will Smith",
     "Steve Jobs"];
 
-    
+
+buttn.addEventListener('click',()=>{
+    var randomNamber = Math.floor(Math.random() * 8);
+
+    EM.innerText = quote[randomNamber]
+    HEADER.innerText =  writer[randomNamber]
+
+    console.log(randomNamber)
+})
