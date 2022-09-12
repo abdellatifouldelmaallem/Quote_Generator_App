@@ -21,10 +21,6 @@ var writer = [
     "Will Smith",
     "Steve Jobs"
 ];
-// generate random integer
-// function generateNamber(x){
-//    return  Math.floor(Math.random() * x);
-// }
 buttn.addEventListener('click', function () {
     var randomNamber = Math.floor(Math.random() * 8);
     EM.innerText = quote[randomNamber];
