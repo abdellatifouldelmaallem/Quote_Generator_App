@@ -11,6 +11,7 @@ var quote = [
     "Money and success don’t change people; they merely amplify what is already there.",
     "Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking."
 ];
+
 var writer = [
     "Dalai Lama",
     "John Lennon",
@@ -21,6 +22,7 @@ var writer = [
     "Will Smith",
     "Steve Jobs"
 ];
+
 buttn.addEventListener('click', function () {
     var randomNamber = Math.floor(Math.random() * 8);
     EM.innerText = quote[randomNamber];
